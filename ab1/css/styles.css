@@ -49,11 +49,21 @@
     font-weight: 900;
     letter-spacing: -5px;
 }
+.keywords {
+    font-size: 15px;
+}
+.keywords ul {
+    padding: 0;
+}
+.keywords li {
+    display: inline;
+    margin-right: 10px;
+}
 .element-0{
 	cursor: auto; left: 0px; top: 0px; background-color: rgb(163, 163, 163);
 }
 .element-1{
-	top: 5px; left: 5px; width: 800px; height: 1242px; position: absolute; background-color: rgb(255, 255, 255);
+	top: 5px; left: 79px; width: 800px; height: 1498px; position: absolute; box-sizing: content-box; background-color: rgb(255, 255, 255);
 }
 .element-2{
 	position: absolute; height: 90px; width: 100px; top: 0px; left: 0px; background-color: rgb(102, 102, 102);
@@ -125,7 +135,7 @@ box-shadow: 0 10px 60px -6px black;
 	position: absolute; height: 20px; width: 20px; top: 990px; left: 385px; background-color: rgb(255, 255, 255);
 }
 .element-23{
-	position: absolute; height: 250px; width: 801px; top: 1000px; left: 0px; background-color: rgb(53, 73, 94);
+	position: absolute; height: 247px; width: 800px; top: 1000px; left: 0px; box-sizing: content-box; background-color: rgb(53, 73, 94);
 }
 .element-24{
 	position: absolute; height: 117px; width: 367px; top: 25px; left: 25px; box-sizing: content-box; background-color: transparent;
@@ -138,4 +148,7 @@ box-shadow: 0 10px 60px -6px black;
 }
 .element-27{
 	height: 79px; width: 265px; top: 139px; left: 25px; position: absolute;
+}
+.element-28{
+	height: 251px; width: 800px; top: 1247px; left: 0px; position: absolute; box-sizing: content-box; background-color: rgb(163, 163, 163);
 }
