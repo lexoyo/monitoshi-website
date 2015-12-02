@@ -1,147 +1,336 @@
-.title,
-.heading1,
-.heading2,
-.heading3,
-.normal {
-  font-family: verdana, arial;
-}
-.heading1 {
-    margin-top: 10px;
-}
-.title-header .title {
-    line-height: 1;
-}
-.title-header .heading1 {
-    line-height: 0;
-    font-size: 16px;
-    font-weight: 100;
-    color: white;
-}
-.rotated{
-    -webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);
-}
-.top-z{
-    z-index: 999;
-}
-.full-width{
-    width:100% !important;
-}
-.product-details .heading1{
-    font-size: 24px;
-    text-transform: capitalize;
-    color: #ed5a3b;
-    margin: 0;
-}
-.product-details .normal{
-    color: #666666;
-}
-.logo {
-    line-height: 40px;
-    color: #666666;
-    font-size: 45px;
-    font-weight: 900;
-    letter-spacing: -5px;
-}
-.keywords {
-    font-size: 15px;
-}
-.keywords ul {
-    padding: 0;
-}
-.keywords li {
-    display: inline;
-    margin-right: 10px;
-}
-.share-buttons{
-	list-style: none;
-}
-.share-buttons li{
-	display: inline;
-}
-.element-0{
-	cursor: auto; left: 0px; top: 0px; background-color: rgb(163, 163, 163); border-color: rgb(0, 0, 0);
-}
-.element-1{
-	top: 5px; left: 79px; width: 800px; height: 1494px; position: absolute; box-sizing: content-box; background-color: rgb(255, 255, 255);
-}
-.element-2{
-	position: absolute; height: 90px; width: 100px; top: 0px; left: 0px; background-color: rgb(102, 102, 102);
-}
-.element-3{
-	position: absolute; height: 20px; width: 20px; top: 79px; left: 385px; background-color: rgb(102, 102, 102);
-}
-.element-4{
-	position: absolute; height: 63px; width: 425px; top: 22px; left: 107px; box-sizing: content-box; background-color: transparent;
-}
-.element-5{
-	height: 45.6140350877193px; width: 69px; top: 20px; left: 21px; position: absolute; box-sizing: content-box;
-}
-.element-6{
-	position: absolute; height: 74px; width: 332px; top: 10px; left: 441px; background-color: transparent; border-color: rgb(0, 0, 0); box-sizing: content-box;
-}
-.element-7{
-	position: absolute; height: 500px; width: 100px; top: 90px; left: 0px; border-color: rgb(0, 0, 0); background-color: rgb(237, 90, 59);
-}
-.element-8{
-	position: absolute; height: 20px; width: 20px; top: 487px; left: 385px; background-color: rgb(237, 90, 59);
-}
-.element-9{
-	position: absolute; height: 98px; width: 752px; top: 323px; left: 22px; border: 2px solid rgb(0, 0, 0); border-radius: 5px; box-sizing: content-box; background-color: transparent;
-}
-.element-10{
-	position: absolute; height: 84px; width: 227px; top: 11px; left: 517px; border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(255, 255, 255); line-height: 19px; box-sizing: content-box; background-color: transparent;
-}
-.element-11{
-	height: 59px; width: 495px; top: 28px; left: 15px; position: absolute; border-color: rgb(0, 0, 0); box-sizing: content-box; background-color: transparent;
-}
-.element-12{
-	position: absolute; height: 282px; width: 755px; top: 26px; left: 24px; box-sizing: content-box; border-color: rgb(0, 0, 0); background-color: transparent;
-}
-.element-13{
-	height: 189.230769230769px; width: 252px; top: 75px; left: 527px; position: absolute; box-sizing: content-box; border-radius: 20px; box-shadow: black 0px 10px 60px -6px;
-}
-.element-14{
-	height: 55px; width: 259px; top: 429px; left: 268px; position: absolute; box-sizing: content-box; background-color: transparent;
-}
-.element-15{
-	position: absolute; height: 63px; width: 100px; top: 847px; left: 25px; box-sizing: content-box;
-}
-.element-16{
-	position: absolute; height: 101px; width: 100px; top: 650px; left: 420px;
-}
-.element-17{
-	position: absolute; height: 66px; width: 100px; top: 844px; left: 420px; box-sizing: content-box;
-}
-.element-18{
-	position: absolute; height: 100px; width: 100px; top: 650px; left: 25px;
-}
-.element-19{
-	position: absolute; height: 132px; width: 259px; top: 645px; left: 147px; box-sizing: content-box; background-color: transparent;
-}
-.element-20{
-	position: absolute; height: 132px; width: 258px; top: 645px; left: 544px; box-sizing: content-box; background-color: transparent;
-}
-.element-21{
-	position: absolute; height: 148px; width: 263px; top: 842px; left: 146px; box-sizing: content-box; background-color: transparent;
-}
-.element-22{
-	position: absolute; height: 149px; width: 258px; top: 842px; left: 543px; box-sizing: content-box; background-color: transparent;
-}
-.element-23{
-	position: absolute; height: 20px; width: 20px; top: 990px; left: 385px; background-color: rgb(255, 255, 255);
-}
-.element-24{
-	position: absolute; height: 246px; width: 800px; top: 1000px; left: 0px; box-sizing: content-box; background-color: rgb(53, 73, 94);
-}
-.element-25{
-	position: absolute; height: 117px; width: 367px; top: 25px; left: 25px; box-sizing: content-box; background-color: transparent;
-}
-.element-26{
-	position: absolute; height: 144px; width: 367px; top: 25px; left: 413px; box-sizing: content-box; background-color: transparent;
-}
-.element-27{
-	height: 79px; width: 265px; top: 139px; left: 25px; position: absolute;
-}
-.element-28{
-	height: 252px; width: 800px; top: 1244px; left: 0px; position: absolute; box-sizing: content-box; background-color: rgb(163, 163, 163);
-}
+
+        .title,.heading1,.heading2,.heading3,.normal{font-family:verdana,arial;}.heading1{margin-top:10px;}.title-header .title{line-height:1;}.title-header .heading1{line-height:0;font-size:16px;font-weight:100;color:white;}.rotated{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}.top-z{z-index:999;}.full-width{width:100%!important;}.product-details .heading1{font-size:24px;text-transform:capitalize;color:#ed5a3b;margin:0;}.product-details .normal{color:#666666;}.logo{line-height:40px;color:#666666;font-size:45px;font-weight:900;letter-spacing:-5px;}.keywords{font-size:15px;}.keywords ul{padding:0;}.keywords li{display:inline;margin-right:10px;}.share-buttons{list-style:none;}.share-buttons li{display:inline;}
+    
+        .silex-id-1449140257902-28 {
+            cursor: auto; 
+            left: 0px; 
+            top: 0px; 
+            background-color: rgb(163, 163, 163); 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        .silex-id-1449140257895-27 {
+            top: 5px; 
+            left: 55px; 
+            width: 800px; 
+            height: 1690px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1449140257885-26 {
+            position: absolute; 
+            height: 90px; 
+            width: 100px; 
+            top: 0px; 
+            left: 0px; 
+            background-color: rgb(102, 102, 102); 
+        }
+        .silex-id-1449140257880-25 {
+            position: absolute; 
+            height: 20px; 
+            width: 20px; 
+            top: 79px; 
+            left: 385px; 
+            background-color: rgb(102, 102, 102); 
+        }
+        .silex-id-1449140257874-24 {
+            position: absolute; 
+            height: 63px; 
+            width: 425px; 
+            top: 22px; 
+            left: 107px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1449140257868-23 {
+            height: 45.614px; 
+            width: 69px; 
+            top: 20px; 
+            left: 21px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1449140257863-22 {
+            position: absolute; 
+            height: 74px; 
+            width: 332px; 
+            top: 10px; 
+            left: 441px; 
+            background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+            box-sizing: content-box; 
+        }
+        .silex-id-1449140257852-21 {
+            position: absolute; 
+            height: 700px; 
+            width: 100px; 
+            top: 90px; 
+            left: 0px; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+            background-color: rgb(237, 90, 59); 
+        }
+        .silex-id-1449140257846-20 {
+            position: absolute; 
+            height: 20px; 
+            width: 20px; 
+            top: 687px; 
+            left: 385px; 
+            background-color: rgb(237, 90, 59); 
+        }
+        .silex-id-1449140257838-19 {
+            position: absolute; 
+            height: 298px; 
+            width: 752px; 
+            top: 323px; 
+            left: 22px; 
+            border-top-width: 2px; 
+            border-right-width: 2px; 
+            border-bottom-width: 2px; 
+            border-left-width: 2px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+            border-image-source: initial; 
+            border-image-slice: initial; 
+            border-image-width: initial; 
+            border-image-outset: initial; 
+            border-image-repeat: initial; 
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 5px; 
+            border-bottom-left-radius: 5px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1449140257832-18 {
+            position: absolute; 
+            height: 276px; 
+            width: 227px; 
+            top: 11px; 
+            left: 517px; 
+            border-top-width: 0px; 
+            border-right-width: 0px; 
+            border-bottom-width: 0px; 
+            border-left-width: 1px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            line-height: 19px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1449140257827-17 {
+            height: 217px; 
+            width: 495px; 
+            top: 65px; 
+            left: 15px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        .silex-id-1449156340190-29 {
+            height: 209px; 
+            width: 206px; 
+            top: 66px; 
+            left: 528px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        .silex-id-1449156929046-30 {
+            position: absolute; 
+            height: 62px; 
+            width: 478px; 
+            top: 11px; 
+            left: 24px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        .silex-id-1449140257822-16 {
+            position: absolute; 
+            height: 282px; 
+            width: 755px; 
+            top: 26px; 
+            left: 24px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        .silex-id-1449140257816-15 {
+            height: 189.231px; 
+            width: 252px; 
+            top: 75px; 
+            left: 527px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            border-top-left-radius: 20px; 
+            border-top-right-radius: 20px; 
+            border-bottom-right-radius: 20px; 
+            border-bottom-left-radius: 20px; 
+            box-shadow: black 0px 10px 60px -6px; 
+        }
+        .silex-id-1449140257810-14 {
+            height: 55px; 
+            width: 259px; 
+            top: 629px; 
+            left: 268px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1449140257804-13 {
+            position: absolute; 
+            height: 63px; 
+            width: 100px; 
+            top: 1047px; 
+            left: 25px; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1449140257798-12 {
+            position: absolute; 
+            height: 101px; 
+            width: 100px; 
+            top: 850px; 
+            left: 420px; 
+        }
+        .silex-id-1449140257793-11 {
+            position: absolute; 
+            height: 66px; 
+            width: 100px; 
+            top: 1044px; 
+            left: 420px; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1449140257787-10 {
+            position: absolute; 
+            height: 100px; 
+            width: 100px; 
+            top: 850px; 
+            left: 25px; 
+        }
+        .silex-id-1449140257781-9 {
+            position: absolute; 
+            height: 132px; 
+            width: 259px; 
+            top: 845px; 
+            left: 147px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1449140257771-8 {
+            position: absolute; 
+            height: 132px; 
+            width: 258px; 
+            top: 845px; 
+            left: 544px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1449140257765-7 {
+            position: absolute; 
+            height: 148px; 
+            width: 263px; 
+            top: 1042px; 
+            left: 146px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1449140257760-6 {
+            position: absolute; 
+            height: 149px; 
+            width: 258px; 
+            top: 1042px; 
+            left: 543px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1449140257754-5 {
+            position: absolute; 
+            height: 20px; 
+            width: 20px; 
+            top: 990px; 
+            left: 385px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1449140257748-4 {
+            position: absolute; 
+            height: 246px; 
+            width: 800px; 
+            top: 1200px; 
+            left: 0px; 
+            box-sizing: content-box; 
+            background-color: rgb(53, 73, 94); 
+        }
+        .silex-id-1449140257742-3 {
+            position: absolute; 
+            height: 117px; 
+            width: 367px; 
+            top: 25px; 
+            left: 25px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1449140257688-2 {
+            position: absolute; 
+            height: 144px; 
+            width: 367px; 
+            top: 25px; 
+            left: 413px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1449140257687-1 {
+            height: 79px; 
+            width: 265px; 
+            top: 139px; 
+            left: 25px; 
+            position: absolute; 
+        }
+        .silex-id-1449140257685-0 {
+            height: 256px; 
+            width: 800px; 
+            top: 1444px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: rgb(163, 163, 163); 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+    
