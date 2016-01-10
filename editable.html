@@ -2,31 +2,118 @@
 <html>
 
 <head>
-    <script type="text/javascript" src="//preprod.silex.me/static/2.5/jquery.js"></script>
-    <script type="text/javascript" src="//preprod.silex.me/static/2.5/jquery-ui.js"></script>
-    <script type="text/javascript" src="//preprod.silex.me/static/2.5/pageable.js"></script>
-    <script type="text/javascript" src="//preprod.silex.me/static/2.5/front-end.js"></script>
-    <link rel="stylesheet" href="//preprod.silex.me/static/2.5/normalize.css">
-    <link rel="stylesheet" href="//preprod.silex.me/static/2.5/front-end.css">
+    <script type="text/javascript" data-silex-static="" src="//preprod.silex.me/static/2.6/jquery.js"></script>
+    <script type="text/javascript" data-silex-static="" src="//preprod.silex.me/static/2.6/jquery-ui.js"></script>
+    <script type="text/javascript" data-silex-static="" src="//preprod.silex.me/static/2.6/pageable.js"></script>
+    <script type="text/javascript" data-silex-static="" src="//preprod.silex.me/static/2.6/front-end.js"></script>
+    <link rel="stylesheet" data-silex-static="" href="//preprod.silex.me/static/2.6/normalize.css">
+    <link rel="stylesheet" data-silex-static="" href="//preprod.silex.me/static/2.6/front-end.css">
     <title>Monitoshi - be notified when your site is down, for free</title>
     <meta charset="UTF-8">
-    <meta name="generator" content="Silex v2.2.5">
+    <meta name="generator" content="Silex v2.2.6">
     <link rel="icon" type="image/png" href="assets/monitoshi-logo.png">
     <meta name="description" content="Free Website Monitoring. Be notified when your site is down.">
-
-
     <style type="text/css" class="silex-style">
-        .title,.heading1,.heading2,.heading3,.normal{font-family:verdana,arial;}.heading1{margin-top:10px;}.title-header .title{line-height:1;}.title-header .heading1{line-height:0;font-size:16px;font-weight:100;color:white;}.rotated{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}.top-z{z-index:999;}.full-width{width:100%!important;}.product-details .heading1{font-size:24px;text-transform:capitalize;color:#ed5a3b;margin:0;}.product-details .normal{color:#666666;}.logo{line-height:40px;color:#666666;font-size:45px;font-weight:900;letter-spacing:-5px;}.keywords{font-size:15px;}.keywords ul{padding:0;}.keywords li{display:inline;margin-right:10px;}.share-buttons{list-style:none;}.share-buttons li{display:inline;}
+        .title,.heading1,.heading2,.heading3,.normal {
+          font-family: verdana,arial;
+        }
+        
+        .heading1 {
+          margin-top: 10px;
+        }
+        
+        .title-header .title {
+          line-height: 1;
+        }
+        
+        .title-header .heading1 {
+          line-height: 0;
+          font-size: 16px;
+          font-weight: 100;
+          color: white;
+        }
+        
+        .rotated {
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+        
+        .top-z {
+          z-index: 999;
+        }
+        
+        .full-width {
+          width: 100%!important;
+        }
+        
+        .product-details .heading1 {
+          font-size: 24px;
+          text-transform: capitalize;
+          color: #ed5a3b;
+          margin: 0;
+        }
+        
+        .product-details .normal {
+          color: #666666;
+        }
+        
+        .logo {
+          line-height: 40px;
+          color: #666666;
+          font-size: 45px;
+          font-weight: 900;
+          letter-spacing: -5px;
+        }
+        
+        .keywords {
+          font-size: 15px;
+        }
+        
+        .keywords ul {
+          padding: 0;
+        }
+        
+        .keywords li {
+          display: inline;
+          margin-right: 10px;
+        }
+        
+        .share-buttons {
+          list-style: none;
+        }
+        
+        .share-buttons li {
+          display: inline;
+        }
+            
+        /* 
+            MOBILE
+        */
+        .silex-pages {
+            display: none;
+        }
+        
+        @media (max-width:480px) {
+            body.enable-mobile {
+                padding: 0;
+            }
+            .container-element {
+                heig
+            }
+        }
     </style>
     <script type="text/javascript" class="silex-script">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
+
         ga('create', 'UA-19608894-25', 'auto');
         ga('send', 'pageview');
-        
+
         /*                       *\
            Google analytics widget
         \*                       */
@@ -67,7 +154,7 @@
                 });
             }
         });
-        
+
         /*                      *\
              Google experiment
         \*                      */
@@ -77,12 +164,12 @@
         function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
         indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
         length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-        '<sc'+'ript http://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlsrc="'+'http'+(l.protocol=='https:'?'s://ssl':
+        '<sc'+'ript //preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlsrc="'+'http'+(l.protocol=='https:'?'s://ssl':
         '://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
         '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
         valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
         '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-        
+
         utmx('url','A/B');
     </script>
     <meta name="publicationPath" content="/api/1.0/dropbox/exec/put/sites-silex/monitoshi">
@@ -103,45 +190,56 @@
             left: 55px; 
             width: 800px; 
             height: 1690px; 
-            position: absolute; 
             box-sizing: content-box; 
             background-color: rgb(255, 255, 255); 
         }
         .silex-id-1449140257885-26 {
-            position: absolute; 
             height: 90px; 
             width: 100px; 
             top: 0px; 
             left: 0px; 
             background-color: rgb(102, 102, 102); 
         }
-        .silex-id-1449140257880-25 {
-            position: absolute; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257885-26 {
+            top: 0px; 
+            left: 0px; 
+            width: 467px; 
+            height: 201px; 
+        }
+        }.silex-id-1449140257880-25 {
             height: 20px; 
             width: 20px; 
             top: 79px; 
             left: 385px; 
             background-color: rgb(102, 102, 102); 
         }
-        .silex-id-1449140257874-24 {
-            position: absolute; 
+        .silex-id-1452423140532-5 {
+            height: 56px; 
+            width: 56px; 
+            top: 19px; 
+            left: 20px; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1452423140532-5 {
+            height: 56px; 
+            width: 56px; 
+        }
+        }.silex-id-1449140257874-24 {
             height: 63px; 
-            width: 425px; 
-            top: 22px; 
-            left: 107px; 
+            width: 291px; 
+            top: 26px; 
+            left: 84px; 
             box-sizing: content-box; 
             background-color: transparent; 
         }
-        .silex-id-1449140257868-23 {
-            height: 45.614px; 
-            width: 69px; 
-            top: 20px; 
-            left: 21px; 
-            position: absolute; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257874-24 {
+            height: 63px; 
+            width: 291px; 
             box-sizing: content-box; 
+            background-color: transparent; 
+            top: 95px; 
+            left: 160px; 
         }
-        .silex-id-1449140257863-22 {
-            position: absolute; 
+        }.silex-id-1449140257863-22 {
             height: 74px; 
             width: 332px; 
             top: 10px; 
@@ -153,8 +251,13 @@
             border-left-color: rgb(0, 0, 0); 
             box-sizing: content-box; 
         }
-        .silex-id-1449140257852-21 {
-            position: absolute; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257863-22 {
+            top: 121px; 
+            left: 66px; 
+            width: 204px; 
+            height: 74px; 
+        }
+        }.silex-id-1449140257852-21 {
             height: 700px; 
             width: 100px; 
             top: 90px; 
@@ -165,16 +268,53 @@
             border-left-color: rgb(0, 0, 0); 
             background-color: rgb(237, 90, 59); 
         }
-        .silex-id-1449140257846-20 {
-            position: absolute; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257852-21 {
+            top: 140px; 
+            left: 0px; 
+            width: 467px; 
+            height: 1082px; 
+        }
+        }.silex-id-1449140257846-20 {
             height: 20px; 
             width: 20px; 
             top: 687px; 
             left: 385px; 
             background-color: rgb(237, 90, 59); 
         }
-        .silex-id-1449140257838-19 {
-            position: absolute; 
+        .silex-id-1449140257822-16 {
+            height: 282px; 
+            width: 755px; 
+            top: 26px; 
+            left: 24px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257822-16 {
+            border-color: #000000; 
+        }
+        }.silex-id-1449140257816-15 {
+            height: 189.231px; 
+            width: 252px; 
+            top: 75px; 
+            left: 527px; 
+            box-sizing: content-box; 
+            border-top-left-radius: 20px; 
+            border-top-right-radius: 20px; 
+            border-bottom-right-radius: 20px; 
+            border-bottom-left-radius: 20px; 
+            box-shadow: 0px 10px 60px -6px black; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257816-15 {
+            top: 334px; 
+            left: 0px; 
+            width: 467px; 
+            height: 215px; 
+        }
+        }.silex-id-1449140257838-19 {
             height: 298px; 
             width: 752px; 
             top: 323px; 
@@ -203,8 +343,13 @@
             box-sizing: content-box; 
             background-color: transparent; 
         }
-        .silex-id-1449140257832-18 {
-            position: absolute; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257838-19 {
+            top: 20px; 
+            left: -2px; 
+            width: 467px; 
+            height: 442px; 
+        }
+        }.silex-id-1449140257832-18 {
             height: 276px; 
             width: 227px; 
             top: 11px; 
@@ -225,34 +370,10 @@
             border-bottom-color: rgb(255, 255, 255); 
             border-left-color: rgb(255, 255, 255); 
         }
-        .silex-id-1449140257827-17 {
-            height: 217px; 
-            width: 495px; 
-            top: 65px; 
-            left: 15px; 
-            position: absolute; 
-            box-sizing: content-box; 
-            background-color: transparent; 
-            border-top-color: rgb(0, 0, 0); 
-            border-right-color: rgb(0, 0, 0); 
-            border-bottom-color: rgb(0, 0, 0); 
-            border-left-color: rgb(0, 0, 0); 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257832-18 {
+            border-color: #ffffff; 
         }
-        .silex-id-1449156340190-29 {
-            height: 209px; 
-            width: 206px; 
-            top: 66px; 
-            left: 528px; 
-            position: absolute; 
-            box-sizing: content-box; 
-            background-color: transparent; 
-            border-top-color: rgb(0, 0, 0); 
-            border-right-color: rgb(0, 0, 0); 
-            border-bottom-color: rgb(0, 0, 0); 
-            border-left-color: rgb(0, 0, 0); 
-        }
-        .silex-id-1449156929046-30 {
-            position: absolute; 
+        }.silex-id-1449156929046-30 {
             height: 62px; 
             width: 478px; 
             top: 11px; 
@@ -264,12 +385,17 @@
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
         }
-        .silex-id-1449140257822-16 {
-            position: absolute; 
-            height: 282px; 
-            width: 755px; 
-            top: 26px; 
-            left: 24px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449156929046-30 {
+            top: 0px; 
+            left: 0px; 
+            width: 467px; 
+            height: 84px; 
+        }
+        }.silex-id-1449140257827-17 {
+            height: 217px; 
+            width: 495px; 
+            top: 65px; 
+            left: 15px; 
             box-sizing: content-box; 
             background-color: transparent; 
             border-top-color: rgb(0, 0, 0); 
@@ -277,60 +403,52 @@
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
         }
-        .silex-id-1449140257816-15 {
-            height: 189.231px; 
-            width: 252px; 
-            top: 75px; 
-            left: 527px; 
-            position: absolute; 
-            box-sizing: content-box; 
-            border-top-left-radius: 20px; 
-            border-top-right-radius: 20px; 
-            border-bottom-right-radius: 20px; 
-            border-bottom-left-radius: 20px; 
-            box-shadow: black 0px 10px 60px -6px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257827-17 {
+            border-color: #000000; 
+            top: 62px; 
+            left: 0px; 
+            width: 467px; 
+            height: 274px; 
         }
-        .silex-id-1449140257810-14 {
+        }.silex-id-1449156340190-29 {
+            height: 209px; 
+            width: 206px; 
+            top: 66px; 
+            left: 528px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449156340190-29 {
+            top: 322px; 
+            left: 0px; 
+            width: 467px; 
+            height: 106px; 
+        }
+        }.silex-id-1449140257810-14 {
             height: 55px; 
             width: 259px; 
             top: 629px; 
             left: 268px; 
-            position: absolute; 
             box-sizing: content-box; 
             background-color: transparent; 
         }
-        .silex-id-1449140257804-13 {
-            position: absolute; 
-            height: 63px; 
-            width: 100px; 
-            top: 1047px; 
-            left: 25px; 
-            box-sizing: content-box; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257810-14 {
+            top: 1017px; 
+            left: 46px; 
+            width: 284px; 
+            height: 55px; 
         }
-        .silex-id-1449140257798-12 {
-            position: absolute; 
+        }.silex-id-1449140257798-12 {
             height: 101px; 
             width: 100px; 
             top: 850px; 
             left: 420px; 
         }
-        .silex-id-1449140257793-11 {
-            position: absolute; 
-            height: 66px; 
-            width: 100px; 
-            top: 1044px; 
-            left: 420px; 
-            box-sizing: content-box; 
-        }
-        .silex-id-1449140257787-10 {
-            position: absolute; 
-            height: 100px; 
-            width: 100px; 
-            top: 850px; 
-            left: 25px; 
-        }
         .silex-id-1449140257781-9 {
-            position: absolute; 
             height: 132px; 
             width: 259px; 
             top: 845px; 
@@ -338,8 +456,19 @@
             box-sizing: content-box; 
             background-color: transparent; 
         }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257781-9 {
+            top: 1222px; 
+            left: 162px; 
+            width: 285px; 
+            height: 132px; 
+        }
+        }.silex-id-1449140257787-10 {
+            height: 100px; 
+            width: 100px; 
+            top: 850px; 
+            left: 25px; 
+        }
         .silex-id-1449140257771-8 {
-            position: absolute; 
             height: 132px; 
             width: 258px; 
             top: 845px; 
@@ -347,8 +476,20 @@
             box-sizing: content-box; 
             background-color: transparent; 
         }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257771-8 {
+            width: 283px; 
+            top: 1354px; 
+            left: 162px; 
+            height: 132px; 
+        }
+        }.silex-id-1449140257804-13 {
+            height: 63px; 
+            width: 100px; 
+            top: 1047px; 
+            left: 25px; 
+            box-sizing: content-box; 
+        }
         .silex-id-1449140257765-7 {
-            position: absolute; 
             height: 148px; 
             width: 263px; 
             top: 1042px; 
@@ -356,8 +497,20 @@
             box-sizing: content-box; 
             background-color: transparent; 
         }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257765-7 {
+            top: 1486px; 
+            left: 164px; 
+            width: 281px; 
+            height: 148px; 
+        }
+        }.silex-id-1449140257793-11 {
+            height: 66px; 
+            width: 100px; 
+            top: 1044px; 
+            left: 420px; 
+            box-sizing: content-box; 
+        }
         .silex-id-1449140257760-6 {
-            position: absolute; 
             height: 149px; 
             width: 258px; 
             top: 1042px; 
@@ -365,8 +518,13 @@
             box-sizing: content-box; 
             background-color: transparent; 
         }
-        .silex-id-1449140257754-5 {
-            position: absolute; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257760-6 {
+            top: 1634px; 
+            left: 163px; 
+            width: 283px; 
+            height: 149px; 
+        }
+        }.silex-id-1449140257754-5 {
             height: 20px; 
             width: 20px; 
             top: 990px; 
@@ -374,7 +532,6 @@
             background-color: rgb(255, 255, 255); 
         }
         .silex-id-1449140257748-4 {
-            position: absolute; 
             height: 246px; 
             width: 800px; 
             top: 1200px; 
@@ -382,8 +539,13 @@
             box-sizing: content-box; 
             background-color: rgb(53, 73, 94); 
         }
-        .silex-id-1449140257742-3 {
-            position: absolute; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257748-4 {
+            top: 1783px; 
+            left: 0px; 
+            width: 467px; 
+            height: 361px; 
+        }
+        }.silex-id-1449140257742-3 {
             height: 117px; 
             width: 367px; 
             top: 25px; 
@@ -392,7 +554,6 @@
             background-color: transparent; 
         }
         .silex-id-1449140257688-2 {
-            position: absolute; 
             height: 144px; 
             width: 367px; 
             top: 25px; 
@@ -400,19 +561,23 @@
             box-sizing: content-box; 
             background-color: transparent; 
         }
-        .silex-id-1449140257687-1 {
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1449140257688-2 {
+            top: 117px; 
+            left: 1px; 
+            width: 193px; 
+            height: 144px; 
+        }
+        }.silex-id-1449140257687-1 {
             height: 79px; 
             width: 265px; 
             top: 139px; 
             left: 25px; 
-            position: absolute; 
         }
         .silex-id-1449140257685-0 {
             height: 256px; 
             width: 800px; 
             top: 1444px; 
             left: 0px; 
-            position: absolute; 
             box-sizing: content-box; 
             background-color: rgb(163, 163, 163); 
             border-top-color: rgb(0, 0, 0); 
@@ -422,24 +587,15 @@
         }
     </style>
     <script type="text/javascript" src="//cdn.rawgit.com/RobinHerbots/jquery.inputmask/2.x/dist/jquery.inputmask.bundle.js"></script>
+    <script class="silex-json-styles" type="text/javascript">
+        [{"desktop":{"silex-id-1449140257902-28":{"cursor":"auto","left":"0px","top":"0px","background-color":"rgb(163, 163, 163)","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)"},"silex-id-1449140257895-27":{"top":"5px","left":"55px","width":"800px","height":"1690px","box-sizing":"content-box","background-color":"rgb(255, 255, 255)"},"silex-id-1449140257885-26":{"height":"90px","width":"100px","top":"0px","left":"0px","background-color":"rgb(102, 102, 102)"},"silex-id-1449140257880-25":{"height":"20px","width":"20px","top":"79px","left":"385px","background-color":"rgb(102, 102, 102)"},"silex-id-1449140257874-24":{"height":"63px","width":"291px","top":"26px","left":"84px","box-sizing":"content-box","background-color":"transparent"},"silex-id-1449140257868-23":{"height":"45.614px","width":"69px","top":"20px","left":"21px","box-sizing":"content-box"},"silex-id-1449140257863-22":{"height":"74px","width":"332px","top":"10px","left":"441px","background-color":"transparent","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)","box-sizing":"content-box"},"silex-id-1449140257852-21":{"height":"700px","width":"100px","top":"90px","left":"0px","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)","background-color":"rgb(237, 90, 59)"},"silex-id-1449140257846-20":{"height":"20px","width":"20px","top":"687px","left":"385px","background-color":"rgb(237, 90, 59)"},"silex-id-1449140257838-19":{"height":"298px","width":"752px","top":"323px","left":"22px","border-top-width":"2px","border-right-width":"2px","border-bottom-width":"2px","border-left-width":"2px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)","border-image-source":"initial","border-image-slice":"initial","border-image-width":"initial","border-image-outset":"initial","border-image-repeat":"initial","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","box-sizing":"content-box","background-color":"transparent"},"silex-id-1449140257832-18":{"height":"276px","width":"227px","top":"11px","left":"517px","border-top-width":"0px","border-right-width":"0px","border-bottom-width":"0px","border-left-width":"1px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","line-height":"19px","box-sizing":"content-box","background-color":"transparent","border-top-color":"rgb(255, 255, 255)","border-right-color":"rgb(255, 255, 255)","border-bottom-color":"rgb(255, 255, 255)","border-left-color":"rgb(255, 255, 255)"},"silex-id-1449140257827-17":{"height":"217px","width":"495px","top":"65px","left":"15px","box-sizing":"content-box","background-color":"transparent","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)"},"silex-id-1449156340190-29":{"height":"209px","width":"206px","top":"66px","left":"528px","box-sizing":"content-box","background-color":"transparent","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)"},"silex-id-1449156929046-30":{"height":"62px","width":"478px","top":"11px","left":"24px","box-sizing":"content-box","background-color":"transparent","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)"},"silex-id-1449140257822-16":{"height":"282px","width":"755px","top":"26px","left":"24px","box-sizing":"content-box","background-color":"transparent","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)"},"silex-id-1449140257816-15":{"height":"189.231px","width":"252px","top":"75px","left":"527px","box-sizing":"content-box","border-top-left-radius":"20px","border-top-right-radius":"20px","border-bottom-right-radius":"20px","border-bottom-left-radius":"20px","box-shadow":"0px 10px 60px -6px black"},"silex-id-1449140257810-14":{"height":"55px","width":"259px","top":"629px","left":"268px","box-sizing":"content-box","background-color":"transparent"},"silex-id-1449140257804-13":{"height":"63px","width":"100px","top":"1047px","left":"25px","box-sizing":"content-box"},"silex-id-1449140257798-12":{"height":"101px","width":"100px","top":"850px","left":"420px"},"silex-id-1449140257793-11":{"height":"66px","width":"100px","top":"1044px","left":"420px","box-sizing":"content-box"},"silex-id-1449140257787-10":{"height":"100px","width":"100px","top":"850px","left":"25px"},"silex-id-1449140257781-9":{"height":"132px","width":"259px","top":"845px","left":"147px","box-sizing":"content-box","background-color":"transparent"},"silex-id-1449140257771-8":{"height":"132px","width":"258px","top":"845px","left":"544px","box-sizing":"content-box","background-color":"transparent"},"silex-id-1449140257765-7":{"height":"148px","width":"263px","top":"1042px","left":"146px","box-sizing":"content-box","background-color":"transparent"},"silex-id-1449140257760-6":{"height":"149px","width":"258px","top":"1042px","left":"543px","box-sizing":"content-box","background-color":"transparent"},"silex-id-1449140257754-5":{"height":"20px","width":"20px","top":"990px","left":"385px","background-color":"rgb(255, 255, 255)"},"silex-id-1449140257748-4":{"height":"246px","width":"800px","top":"1200px","left":"0px","box-sizing":"content-box","background-color":"rgb(53, 73, 94)"},"silex-id-1449140257742-3":{"height":"117px","width":"367px","top":"25px","left":"25px","box-sizing":"content-box","background-color":"transparent"},"silex-id-1449140257688-2":{"height":"144px","width":"367px","top":"25px","left":"413px","box-sizing":"content-box","background-color":"transparent"},"silex-id-1449140257687-1":{"height":"79px","width":"265px","top":"139px","left":"25px"},"silex-id-1449140257685-0":{"height":"256px","width":"800px","top":"1444px","left":"0px","box-sizing":"content-box","background-color":"rgb(163, 163, 163)","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)"},"silex-id-1452421980506-2":{"height":"56px","width":"200px","top":"26px","left":"383px"},"silex-id-1452422373735-3":{"height":"56px","width":"200px","top":"18px","left":"24px"},"silex-id-1452423104981-4":{"height":"56px","width":"200px","top":"21px","left":"20px"},"silex-id-1452423140532-5":{"height":"56px","width":"56px","top":"19px","left":"20px"}},"mobile":{"silex-id-1449140257885-26":{"top":"0px","left":"0px","width":"467px","height":"201px"},"silex-id-1449140257863-22":{"top":"121px","left":"66px","width":"204px","height":"74px"},"silex-id-1449140257874-24":{"height":"63px","width":"291px","boxSizing":"content-box","backgroundColor":"transparent","top":"95px","left":"160px"},"silex-id-1449140257832-18":{"border-color":"#ffffff"},"silex-id-1449140257827-17":{"border-color":"#000000","top":"62px","left":"0px","width":"467px","height":"274px"},"silex-id-1449140257822-16":{"border-color":"#000000"},"silex-id-1449140257838-19":{"top":"20px","left":"-2px","width":"467px","height":"442px","border-width":"","border-style":""},"silex-id-1449156340190-29":{"top":"322px","left":"0px","width":"467px","height":"106px"},"silex-id-1449140257852-21":{"top":"140px","left":"0px","width":"467px","height":"1082px"},"silex-id-1449140257816-15":{"top":"334px","left":"0px","width":"467px","height":"215px"},"silex-id-1449140257810-14":{"top":"1017px","left":"46px","width":"284px","height":"55px"},"silex-id-1449140257781-9":{"top":"1222px","left":"162px","width":"285px","height":"132px"},"silex-id-1449140257771-8":{"width":"283px","top":"1354px","left":"162px","height":"132px"},"silex-id-1449140257765-7":{"top":"1486px","left":"164px","width":"281px","height":"148px"},"silex-id-1449140257760-6":{"top":"1634px","left":"163px","width":"283px","height":"149px"},"silex-id-1449140257688-2":{"top":"117px","left":"1px","width":"193px","height":"144px"},"silex-id-1449140257748-4":{"top":"1783px","left":"0px","width":"467px","height":"361px"},"silex-id-1452423140532-5":{"height":"56px","width":"56px"},"silex-id-1449156929046-30":{"top":"0px","left":"0px","width":"467px","height":"84px"}}}]
+    </script>
+
+    <link rel="shortcut icon" href="assets/monitoshi-logo2-small.png">
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <meta data-silex-viewport="" content="width=device-width, initial-scale=1, maximum-scale=2.2" name="viewport">
 
     <style id="current-page-style">
         .page-page-1{display:inherit; }
@@ -448,52 +604,31 @@
     <!-- End of Silex HEAD tag do not remove -->
 </head>
 
-<body data-silex-type="container" class="silex-id-1449140257902-28 silex-runtime" data-silex-id="silex-id-1449140257902-28">
-    <a id="page-page-1" data-silex-type="page" class="page-element">Page 1</a>
+<body style="" data-silex-type="container" class="silex-id-1449140257902-28 enable-mobile silex-runtime" data-silex-id="silex-id-1449140257902-28">
     <div class="background editable-style container-element prevent-draggable silex-id-1449140257895-27" data-silex-type="container" data-silex-id="silex-id-1449140257895-27">
+
         <div data-silex-type="container" class="editable-style container-element page-page-1 paged-element full-width silex-id-1449140257885-26" data-silex-id="silex-id-1449140257885-26">
-            <div data-silex-type="container" class="editable-style container-element rotated top-z silex-id-1449140257880-25" data-silex-id="silex-id-1449140257880-25"></div>
-            <div data-silex-type="text" class="editable-style text-element title-header silex-id-1449140257874-24" data-silex-id="silex-id-1449140257874-24">
+            <div style="" data-silex-type="container" class="editable-style container-element rotated top-z silex-id-1449140257880-25 hide-on-mobile" data-silex-id="silex-id-1449140257880-25"></div>
+
+
+            <div style="left: 20px; top: 19px;" data-silex-id="silex-id-1452423140532-5" class="editable-style silex-id-1452423140532-5 image-element" data-silex-type="image"><img class="silex-element-content" src="assets/monitoshi-logo2-small.png"></div>
+            <div style="left: 44px; top: 26px;" data-silex-type="text" class="editable-style text-element title-header silex-id-1449140257874-24" data-silex-id="silex-id-1449140257874-24">
                 <div class="silex-element-content normal">
-                    <header><font class="title" face="verdana, sans-serif" color="#ffffff"><b><font size="5">Moni</font><span style="font-size: x-large;">toshi</span></b>
+                    <header><font class="title" color="#ffffff" face="verdana, sans-serif"><b><font size="5">Moni</font><span style="font-size: x-large;">toshi</span></b>
                         </font>
                     </header>
                     <h1 class="heading1">Be notified when your site is down</h1></div>
             </div>
-            <div data-silex-href="#!page-page-1" data-silex-type="image" class="editable-style image-element silex-id-1449140257868-23 page-link-active" data-silex-id="silex-id-1449140257868-23"><img src="assets/monitoshi-logo.png" class="silex-element-content"></div>
-            <div data-silex-type="text" class="editable-style text-element silex-id-1449140257863-22" data-silex-id="silex-id-1449140257863-22">
+            <div data-silex-type="text" class="editable-style text-element silex-id-1449140257863-22 hide-on-mobile" data-silex-id="silex-id-1449140257863-22">
                 <div class="silex-element-content normal">
                     <p class="normal"></p>
-                    <div style="text-align: right;"><span style="color: rgb(255, 255, 255); font-family: verdana, sans-serif; font-size: large;"><a href="https://github.com/lexoyo/Monitoshi">Contribute on Github</a><br></span></div><font class="normal" face="verdana, sans-serif" color="#cccccc"><div style="text-align: right;"><a href="http://lexoyo.me/">Contact us</a></div></font>
+                    <div style="text-align: right;"><span style="color: rgb(255, 255, 255); font-family: verdana, sans-serif; font-size: large;"><a href="https://github.com/lexoyo/Monitoshi">Contribute on Github</a><br></span></div><font class="normal" color="#cccccc" face="verdana, sans-serif"><div style="text-align: right;"><a href="//lexoyo.me/">Contact us</a></div></font>
                     <p class="normal"></p>
                 </div>
             </div>
         </div>
         <div data-silex-type="container" class="editable-style container-element page-page-1 paged-element full-width silex-id-1449140257852-21" data-silex-id="silex-id-1449140257852-21">
-            <div data-silex-type="container" class="editable-style container-element rotated top-z silex-id-1449140257846-20" data-silex-id="silex-id-1449140257846-20"></div>
-            <div data-silex-type="container" class="editable-style container-element silex-id-1449140257838-19" data-silex-id="silex-id-1449140257838-19">
-                <div data-silex-type="text" class="editable-style text-element silex-id-1449140257832-18" data-silex-id="silex-id-1449140257832-18">
-                    <div class="silex-element-content normal">
-
-                        <h1 class="heading1"><span style="color: rgb(255, 255, 255); font-size: large; font-weight: normal;">&nbsp; &nbsp;As of today:</span></h1>
-                    </div>
-                </div>
-                <div data-silex-type="html" class="editable-style html-element silex-id-1449140257827-17" data-silex-id="silex-id-1449140257827-17">
-                    <div class="silex-element-content">
-                        <iframe width="100%" height="100%" frameborder="0" src="http://monitoshi.lexoyo.me/"></iframe>
-                    </div>
-                </div>
-                <div data-silex-type="html" class="editable-style html-element silex-id-1449156340190-29" data-silex-id="silex-id-1449156340190-29">
-                    <div class="silex-element-content">
-                        <iframe width="100%" height="100%" frameborder="0" src="http://monitoshi.lexoyo.me/info"></iframe>
-                    </div>
-                </div>
-                <div data-silex-type="text" class="editable-style text-element silex-id-1449156929046-30" data-silex-id="silex-id-1449156929046-30">
-                    <div class="silex-element-content normal">
-                        <h1 class="heading1"><font color="#ffffff"><span style="font-weight: normal;">Start now, enter your site URL:</span></font></h1>
-                    </div>
-                </div>
-            </div>
+            <div style="" data-silex-type="container" class="editable-style container-element rotated top-z silex-id-1449140257846-20 hide-on-mobile" data-silex-id="silex-id-1449140257846-20"></div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1449140257822-16" data-silex-id="silex-id-1449140257822-16">
                 <div class="silex-element-content normal">
                     <h1 class="heading1"><span style="font-size: x-large; color: rgb(255, 255, 255); font-weight: normal;">Website uptime monitoring</span></h1>
@@ -501,32 +636,55 @@
                 </div>
             </div>
             <div data-silex-type="image" class="editable-style image-element silex-id-1449140257816-15" data-silex-id="silex-id-1449140257816-15"><img src="assets/spectrum.png" class="silex-element-content"></div>
+            <div data-silex-type="container" class="editable-style container-element silex-id-1449140257838-19" data-silex-id="silex-id-1449140257838-19">
+
+                <div data-silex-type="text" class="editable-style text-element silex-id-1449140257832-18 hide-on-mobile" data-silex-id="silex-id-1449140257832-18">
+                    <div class="silex-element-content normal">
+                        <h1 class="heading1"><span style="color: rgb(255, 255, 255); font-size: large; font-weight: normal;">&nbsp; &nbsp;As of today:</span></h1>
+                    </div>
+                </div>
+
+                <div data-silex-type="text" class="editable-style text-element silex-id-1449156929046-30" data-silex-id="silex-id-1449156929046-30">
+                    <div class="silex-element-content normal">
+                        <h1 class="heading1"><font color="#ffffff"><span style="font-weight: normal;">Start now, enter your site URL:</span></font></h1>
+                    </div>
+                </div>
+                <div data-silex-type="html" class="editable-style html-element silex-id-1449140257827-17" data-silex-id="silex-id-1449140257827-17">
+                    <div class="silex-element-content">
+                        <iframe src="//monitoshi.lexoyo.me/" frameborder="0" height="100%" width="100%"></iframe>
+                    </div>
+                </div>
+                <div style="" data-silex-type="html" class="editable-style html-element silex-id-1449156340190-29" data-silex-id="silex-id-1449156340190-29">
+                    <div class="silex-element-content">
+                        <iframe src="//monitoshi.lexoyo.me/info" frameborder="0" height="100%" width="100%"></iframe>
+                    </div>
+                </div>
+            </div>
+
+
             <div data-silex-type="html" class="editable-style html-element silex-id-1449140257810-14" data-silex-id="silex-id-1449140257810-14">
                 <div class="silex-element-content">
                     <ul class="share-buttons">
                         <li>
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://lexoyo.me/monitoshi-website/&amp;t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL)); return false;"><img src="assets/Facebook.png"></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=//lexoyo.me/monitoshi-website/&amp;t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL)); return false;"><img src="assets/Facebook.png"></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/intent/tweet?source=http://lexoyo.me/monitoshi-website/&amp;text=:%20http://lexoyo.me/monitoshi-website/&amp;via=lexoyo" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="assets/Twitter.png"></a>
+                            <a href="https://twitter.com/intent/tweet?source=//lexoyo.me/monitoshi-website/&amp;text=:%20//lexoyo.me/monitoshi-website/&amp;via=lexoyo" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="assets/Twitter.png"></a>
                         </li>
                         <li>
-                            <a href="https://plus.google.com/share?url=http://lexoyo.me/monitoshi-website/" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;"><img src="assets/Google.png"></a>
+                            <a href="https://plus.google.com/share?url=//lexoyo.me/monitoshi-website/" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;"><img src="assets/Google.png"></a>
                         </li>
                         <li>
-                            <a href="http://pinterest.com/pin/create/button/?url=http://lexoyo.me/monitoshi-website/&amp;description=" target="_blank" title="Pin it" onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&amp;description=' +  encodeURIComponent(document.title)); return false;"><img src="assets/Pinterest.png"></a>
+                            <a href="//pinterest.com/pin/create/button/?url=/lexoyo.me/monitoshi-website/&amp;description=" target="_blank" title="Pin it" onclick="window.open('//pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&amp;description=' +  encodeURIComponent(document.title)); return false;"><img src="assets/Pinterest.png"></a>
                         </li>
                         <li>
-                            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://lexoyo.me/monitoshi-website/&amp;title=&amp;summary=&amp;source=http://lexoyo.me/monitoshi-website/" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=' + encodeURIComponent(document.URL) + '&amp;title=' +  encodeURIComponent(document.title)); return false;"><img src="assets/LinkedIn.png"></a>
+                            <a href="//www.linkedin.com/shareArticle?mini=true&amp;url=/lexoyo.me/monitoshi-website/&amp;title=&amp;summary=&amp;source=/lexoyo.me/monitoshi-website/" target="_blank" title="Share on LinkedIn" onclick="window.open('//www.linkedin.com/shareArticle?mini=true&amp;url=' + encodeURIComponent(document.URL) + '&amp;title=' +  encodeURIComponent(document.title)); return false;"><img src="assets/LinkedIn.png"></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div data-silex-type="image" class="editable-style image-element page-page-1 paged-element silex-id-1449140257804-13" data-silex-id="silex-id-1449140257804-13"><img src="assets/back.png" class="silex-element-content"></div>
         <div data-silex-type="image" class="editable-style image-element page-page-1 paged-element silex-id-1449140257798-12" data-silex-id="silex-id-1449140257798-12"><img src="assets/picto1.png" class="silex-element-content"></div>
-        <div data-silex-type="image" class="editable-style image-element page-page-1 paged-element silex-id-1449140257793-11" data-silex-id="silex-id-1449140257793-11"><img src="assets/picto2.png" class="silex-element-content"></div>
-        <div data-silex-type="image" class="editable-style image-element page-page-1 paged-element silex-id-1449140257787-10" data-silex-id="silex-id-1449140257787-10"><img src="assets/picto3.png" class="silex-element-content"></div>
         <div data-silex-type="text" class="editable-style text-element page-page-1 paged-element product-details silex-id-1449140257781-9" data-silex-id="silex-id-1449140257781-9">
             <div class="silex-element-content normal">
                 <h1 class="heading1">immediate ROI</h1>
@@ -534,18 +692,21 @@
                 <p class="normal">Straightforward to maintain.</p>
                 <h2 class="heading2"></h2></div>
         </div>
+        <div data-silex-type="image" class="editable-style image-element page-page-1 paged-element silex-id-1449140257787-10" data-silex-id="silex-id-1449140257787-10"><img src="assets/picto3.png" class="silex-element-content"></div>
         <div data-silex-type="text" class="editable-style text-element product-details page-page-1 paged-element silex-id-1449140257771-8" data-silex-id="silex-id-1449140257771-8">
             <div class="silex-element-content normal">
                 <h1 class="heading1">Absolutely Free</h1>
                 <h1 class="heading1"><p class="normal" style="font-size: medium; font-weight: normal; text-transform: none;">We are free software activists,&nbsp;</p><p class="normal" style="font-size: medium; font-weight: normal; text-transform: none;">Freedom has no price.</p></h1>
                 <h2 class="heading2"></h2></div>
         </div>
+        <div data-silex-type="image" class="editable-style image-element page-page-1 paged-element silex-id-1449140257804-13" data-silex-id="silex-id-1449140257804-13"><img src="assets/back.png" class="silex-element-content"></div>
         <div data-silex-type="text" class="editable-style text-element product-details page-page-1 paged-element silex-id-1449140257765-7" data-silex-id="silex-id-1449140257765-7">
             <div class="silex-element-content normal">
                 <h1 class="heading1">API &amp; web hooks</h1>
                 <p class="normal">A simple way for you to build a <b>status page</b> or <b>send a tweet</b> when things go wrong.</p>
                 <h2 class="heading2"></h2></div>
         </div>
+        <div data-silex-type="image" class="editable-style image-element page-page-1 paged-element silex-id-1449140257793-11" data-silex-id="silex-id-1449140257793-11"><img src="assets/picto2.png" class="silex-element-content"></div>
         <div data-silex-type="text" class="editable-style text-element product-details page-page-1 paged-element silex-id-1449140257760-6" data-silex-id="silex-id-1449140257760-6">
             <div class="silex-element-content normal">
                 <h1 class="heading1">work with us</h1>
@@ -553,23 +714,30 @@
                 <p class="normal">Or hire one of us.</p>
                 <h2 class="heading2"></h2></div>
         </div>
-        <div data-silex-type="container" class="editable-style container-element rotated top-z silex-id-1449140257754-5" data-silex-id="silex-id-1449140257754-5"></div>
+
+
+
+
+
+
+
+        <div style="" data-silex-type="container" class="editable-style container-element rotated top-z silex-id-1449140257754-5 hide-on-mobile" data-silex-id="silex-id-1449140257754-5"></div>
         <div data-silex-type="container" class="editable-style container-element full-width page-page-1 paged-element silex-id-1449140257748-4" data-silex-id="silex-id-1449140257748-4">
             <div data-silex-type="text" class="editable-style text-element silex-id-1449140257742-3" data-silex-id="silex-id-1449140257742-3">
                 <div class="silex-element-content normal">
-                    <header><font class="title" face="verdana, sans-serif" color="#ffffff" size="5">About <b>Monitoshi</b></font></header>
-                    <header><font class="title" face="verdana, sans-serif" color="#ffffff" size="2"><span style="color: rgb(204, 204, 204);"><br></span></font></header>
-                    <header><font class="title" face="verdana, sans-serif" color="#ffffff" size="2"><span style="color: rgb(204, 204, 204);">This is a product of <a href="https://twitter.com/lexoyo">@lexoyo</a> and the <a href="http://www.silexlabs.org/">Silex Labs</a> members.</span></font></header>
+                    <header><font class="title" color="#ffffff" face="verdana, sans-serif" size="5">About <b>Monitoshi</b></font></header>
+                    <header><font class="title" color="#ffffff" face="verdana, sans-serif" size="2"><span style="color: rgb(204, 204, 204);"><br></span></font></header>
+                    <header><font class="title" color="#ffffff" face="verdana, sans-serif" size="2"><span style="color: rgb(204, 204, 204);">This is a product of <a href="https://twitter.com/lexoyo">@lexoyo</a> and the <a href="//www.silexlabs.org/">Silex Labs</a> members.</span></font></header>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1449140257688-2" data-silex-id="silex-id-1449140257688-2">
                 <div class="silex-element-content normal">
-                    <header style="text-align: right;"><font face="verdana, sans-serif" color="#ffffff" size="5">Contact Us</font></header>
-                    <header style="text-align: right;"><font class="title" face="verdana, sans-serif" color="#ffffff" size="2"><span style="color: rgb(204, 204, 204);"><br></span></font></header>
+                    <header style="text-align: right;"><font color="#ffffff" face="verdana, sans-serif" size="5">Contact Us</font></header>
+                    <header style="text-align: right;"><font class="title" color="#ffffff" face="verdana, sans-serif" size="2"><span style="color: rgb(204, 204, 204);"><br></span></font></header>
                     <header>
                         <header style="text-align: right;">
-                            <header><font face="verdana, sans-serif" color="#cccccc" size="2">+33(6) 76 68 38 06</font></header>
-                            <header><font face="verdana, sans-serif" color="#cccccc" size="2"><a href="http://lexoyo.me">Contact us on http://lexoyo.me</a></font></header>
+                            <header><font color="#cccccc" face="verdana, sans-serif" size="2">+33(6) 76 68 38 06</font></header>
+                            <header><font color="#cccccc" face="verdana, sans-serif" size="2"><a href="//lexoyo.me">Contact us on //lexoyo.me</a></font></header>
                             <header><font color="#cccccc" size="2"><a href="https://twitter.com/lexoyo">on twitter </a></font><font color="#cccccc" size="2"><a href="https://twitter.com/lexoyo"><font color="#cccccc" size="2">@lexoyo</font></a>
                                 <br>
                                 </font>
@@ -626,23 +794,8 @@
                 </div>
             </div>
         </div>
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="silex-pages"><img class="menu-button" data-silex-static="" src="//preprod.silex.me/static/2.6/hamburger.png"><a id="page-page-1" data-silex-type="page" class="page-element page-link-active">Page 1</a></div>
 
 
 

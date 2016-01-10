@@ -3,10 +3,10 @@
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
+
         ga('create', 'UA-19608894-25', 'auto');
         ga('send', 'pageview');
-        
+
         /*                       *\
            Google analytics widget
         \*                       */
@@ -47,7 +47,7 @@
                 });
             }
         });
-        
+
         /*                      *\
              Google experiment
         \*                      */
@@ -57,11 +57,11 @@
         function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
         indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
         length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-        '<sc'+'ript http://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlsrc="'+'http'+(l.protocol=='https:'?'s://ssl':
+        '<sc'+'ript //preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.html//preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlhttp://preprod.silex.me/api/1.0/dropbox/exec/get/sites-silex/monitoshi/editable.htmlsrc="'+'http'+(l.protocol=='https:'?'s://ssl':
         '://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
         '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
         valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
         '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-        
+
         utmx('url','A/B');
     
