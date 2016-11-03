@@ -10,11 +10,6 @@ body {
   position: absolute;
   transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
 }
-body.compute-body-size-pending {
-  transition: none;
-  width: 0;
-  height: 0;
-}
 /* pages */
 .page-element{
   display: none;
@@ -25,7 +20,7 @@ body.compute-body-size-pending {
 /* default style for silex elements */
 .editable-style{
   position: absolute;
-  box-sizing: content-box; /* this is needed to set the size of elements with a border (though it could be omited since this is the default value) */
+  box-sizing: border-box;
 }
 .silex-element-content{
   overflow: hidden;
